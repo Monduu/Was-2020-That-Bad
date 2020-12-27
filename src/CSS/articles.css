@@ -1,0 +1,12 @@
+.articles-image {
+    max-width: 200pt;
+}
+
+.article-row {
+    border-bottom: 1pt black solid;
+    padding: 20pt;
+}
+
+/* .row:last-child {
+    border-bottom: none;
+} */

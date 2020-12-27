@@ -1,7 +1,12 @@
+import { header } from '../CSS/header.css';
+
+
 function Footer() {
     return (
-        <div className="container">
-            This is le footer
+        <div>
+            <div className="footer">
+            Made by happy people 
+            </div>
         </div>
     )
 }
