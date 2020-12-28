@@ -6,41 +6,41 @@ import yearOne from '../Assets/Images/yearOne.jpg'
 
 
 function AboutUs() {
-    return (
-            <div>
-             <h3>About us</h3>
-             <div>
-                     
-             <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-  <Tab eventKey="tab1" title="Tab 1">
-    something
+  return (
+    <div>
+      <h3>About us</h3>
+      <div>
+
+        <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+          <Tab eventKey="tab1" title="Tab 1">
+            something
   </Tab>
-  <Tab eventKey="tab2" title="Tab 2">
-    something
+          <Tab eventKey="tab2" title="Tab 2">
+            something
   </Tab>
-  <Tab eventKey="tab3" title="Tab 3">
-   something 
+          <Tab eventKey="tab3" title="Tab 3">
+            something
   </Tab>
-  <Tab eventKey="tab4" title="Tab 4">
-   something 
+          <Tab eventKey="tab4" title="Tab 4">
+            something
   </Tab>
-</Tabs>
-<Row>
-        <Col sm={4}>
-        <img src={yearOne}
-        width="200"
-        height="200"/>
+        </Tabs>
+        <Row>
+          <Col sm={4}>
+            <img src={yearOne}
+              width="200"
+              height="200" />
+          </Col>
+          <Col sm={8}>
+            Adress
         </Col>
-        <Col sm={8}>
-        Adress
-        </Col>
-</Row>
-             </div>
-            </div>
-    
-    )
-    
-    
-    };
-    
-    export default AboutUs;
+        </Row>
+      </div>
+    </div>
+
+  )
+
+
+};
+
+export default AboutUs;

@@ -6,7 +6,7 @@ function Register() {
             <div>
  
  <Form>
-  <Form.Group controlId="formGroupUsername">
+  <Form.Group controlId="formGroupUsername" required>
     <Form.Label>Username</Form.Label>
     <Form.Control type="username" />
   </Form.Group>
