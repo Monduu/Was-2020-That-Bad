@@ -10,3 +10,12 @@
 /* .row:last-child {
     border-bottom: none;
 } */
+
+.article-link {
+    color: black;
+
+}
+
+.article-link:hover {
+    color:  #524997;
+}

@@ -1,3 +1,19 @@
 .main-image-article {
-max-width: 300pt;
+    display: block;
+    max-width: 350pt;
+    padding-top: 20pt;
+}
+
+.images-below {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20pt;
+}
+
+.images-below:last-child {
+    padding-bottom: 50pt;
+}
+
+.small-image-article {
+    max-width: 90pt;
 }

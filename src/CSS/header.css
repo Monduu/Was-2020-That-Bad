@@ -2,11 +2,18 @@
     display: flex;
     justify-content: center;
     background-color: #E58763;
-    text: white;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color:  #E58763;
+    background-color: #E58763;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #524997;
 }
