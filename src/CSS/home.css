@@ -2,7 +2,6 @@
     display: flex;
     align-content: space-between;
     padding: 50pt;
-    /* background-color:  #E58763; */
     flex-wrap: nowrap;
 
 }
@@ -21,4 +20,10 @@ h3 {
 
 .card-body {
     background-color: #01AA8D;
+}
+
+.tab-image {
+    max-width: 200pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
 }

@@ -63,12 +63,8 @@ function Home() {
                     </NavLink>
               
             </Row>
-
         </div >
-
     )
-
-
 };
 
 

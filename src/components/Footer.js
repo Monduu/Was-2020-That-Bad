@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div>
             <div className="footer">
-            Made by happy people 
+                Made by happy people
             </div>
         </div>
     )

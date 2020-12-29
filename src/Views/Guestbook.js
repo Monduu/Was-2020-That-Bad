@@ -75,9 +75,7 @@ function AddNewRecordForm() {
             <div>
                 <ListGroup variant="flush">
                     {recordsElements}
-
                 </ListGroup>
-
             </div>
 
             <div className="form-group">
@@ -90,7 +88,6 @@ function AddNewRecordForm() {
             </div>
             <div className="form-group">
                 <button onClick={addNewRecord} className="btn btn-outline-success btn-inverse">Send</button>
-
             </div>
         </div>
 
