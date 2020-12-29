@@ -83,7 +83,7 @@ function AddNewRecordForm() {
                 <input value={author} onChange={handleAuthorChange} type="text" className="form-control" id="new-record-author"></input>
             </div>
             <div className="form-group">
-                <label htmlFor="new-record-description">Record</label>
+                <label htmlFor="new-record-description">Message</label>
                 <textarea value={description} onChange={handleDescriptionChange} className="form-control" id="new-record-description"></textarea>
             </div>
             <div className="form-group">
