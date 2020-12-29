@@ -20,8 +20,8 @@ function useAxiosGet(uri) {
                     loading: false,
                     data: response.data,
                 });
-            }).catch(() => {
-                alert('Something went wrong.');
+            }).catch((error) => {
+                console.log('failed to retrieve', error)
                 setRequest({
                     loading: false,
                     data: null,

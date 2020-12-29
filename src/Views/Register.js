@@ -43,7 +43,7 @@ function Register() {
             label="Agree with terms and conditions"
           />
 
-          <Button variant="primary">Submit</Button>
+          <Button variant="primary"  >Submit</Button>
 
         </Form.Group>
 
