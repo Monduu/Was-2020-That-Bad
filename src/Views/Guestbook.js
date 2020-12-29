@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import useAxiosGet from '../Hooks/useAxiosGet';
 import AxiosPost from '../Requests/AxiosPost';
+import ListGroup from 'react-bootstrap/ListGroup'
 
 
 function AddNewRecordForm() {
@@ -54,27 +55,29 @@ function AddNewRecordForm() {
 
     const response = useAxiosGet('guestbook-records');
     let recordsElements = ''
-    if (response.loading) {
-    } else if (response.data.lenght === 0) {
-    } else {
+    if (!response.loading && response.data) {
         recordsElements = response.data.map((record, index) => {
             return (
-                <li key={index}>
+                <ListGroup.Item key={index}>
                     <strong>{record.author}, {record.createdAt}</strong>
                     <br />
                     <p>{record.description}</p>
-                </li>
+                </ListGroup.Item>
             );
         })
 
     }
 
-  
+
 
     return (
         <div>
             <div>
-                {recordsElements}
+                <ListGroup variant="flush">
+                    {recordsElements}
+
+                </ListGroup>
+
             </div>
 
             <div className="form-group">
